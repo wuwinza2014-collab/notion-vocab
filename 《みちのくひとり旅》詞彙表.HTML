@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>みちのくひとり旅 詞彙表</title>
+<style>
+  body { font-family: "Yu Gothic", sans-serif; line-height: 1.8; padding: 20px; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { border: 1px solid #999; padding: 8px; text-align: left; }
+  th { background-color: #f2f2f2; }
+  .jp { font-weight: bold; color: #333; cursor: pointer; }
+</style>
+<script>
+function speak(text) {
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = "ja-JP";
+  speechSynthesis.speak(utterance);
+}
+</script>
+</head>
+<body>
+<h1>みちのくひとり旅 詞彙學習表</h1>
+<p>將滑鼠移到詞彙並輕按即可聽到日語發音。</p>
+
+<table>
+  <tr>
+    <th>日語詞彙</th>
+    <th>假名</th>
+    <th>中文解釋</th>
+  </tr>
+  <tr>
+    <td class="jp" onclick="speak('すがる')">すがる</td>
+    <td>すがる</td>
+    <td>依靠、依附</td>
+  </tr>
+  <tr>
+    <td class="jp" onclick="speak('なみだ')">涙</td>
+    <td>なみだ</td>
+    <td>眼淚</td>
+  </tr>
+  <tr>
+    <td class="jp" onclick="speak('いじらしさ')">いじらしさ</td>
+    <td>いじらしさ</td>
+    <td>可憐、惹人憐愛</td>
+  </tr>
+  <tr>
+    <td class="jp" onclick="speak('そのばしのぎ')">その場しのぎ</td>
+    <td>そのばしのぎ</td>
+    <td>暫時應付、權宜之計</td>
+  </tr>
+  <tr>
+    <td class="jp" onclick="speak('みちしるべ')">道しるべ</td>
+    <td>みちしるべ</td>
+    <td>路標、指引</td>
+  </tr>
+  <tr>
+    <td class="jp" onclick="speak('みれん')">未練</td>
+    <td>みれん</td>
+    <td>留戀、不捨</td>
+  </tr>
+  <tr>
+    <td class="jp" onclick="speak('うしろがみひく')">うしろ髪ひく</td>
+    <td>うしろがみひく</td>
+    <td>後髮被牽引，比喻留戀</td>
+  </tr>
+  <tr>
+    <td class="jp" onclick="speak('まつしま')">松島</td>
+    <td>まつしま</td>
+    <td>宮城縣名勝「松島」</td>
+  </tr>
+  <tr>
+    <td class="jp" onclick="speak('しらかわ')">白河</td>
+    <td>しらかわ</td>
+    <td>福島縣地名「白河」</td>
+  </tr>
+  <tr>
+    <td class="jp" onclick="speak('しぐれ')">しぐれ</td>
+    <td>しぐれ</td>
+    <td>晚秋初冬的陣雨</td>
+  </tr>
+  <tr>
+    <td class="jp" onclick="speak('さいごのおんな')">最後の女</td>
+    <td>さいごのおんな</td>
+    <td>最後的女人、唯一的愛人</td>
+  </tr>
+  <tr>
+    <td class="jp" onclick="speak('あかり')">灯り</td>
+    <td>あかり</td>
+    <td>燈光、光明，比喻心靈慰藉</td>
+  </tr>
+  <tr>
+    <td class="jp" onclick="speak('つぶやく')">つぶやく</td>
+    <td>つぶやく</td>
+    <td>低語、喃喃自語</td>
+  </tr>
+</table>
+
+</body>
+</html>
